@@ -1,6 +1,9 @@
 #!/bin/python3
 import sys
 
+print("Enter a time: ")
+print("(hh:mm:ss AM or PM)")
+
 time = input().strip()
 (hours, minutes, rest_of_hour) = time.split(':')
 
